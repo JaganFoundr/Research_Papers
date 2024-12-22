@@ -42,3 +42,15 @@ This repository showcases a collection of research papers I’ve explored and re
 - The paper exemplifies the power of architectural innovations in overcoming dataset limitations.  
 
 ---
+
+## 3️⃣ **[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)**  
+**Authors**: Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby  
+
+📝 **Summary**  
+**Transformers in Vision**: This work demonstrates the power of pure transformer models applied to image recognition tasks, moving away from convolutional neural networks (CNNs) as the core architecture. By using transformers to process sequences of image patches, the model performs exceptionally well on multiple image recognition benchmarks, including **ImageNet, CIFAR-100, and VTAB**.  
+
+🔑 **Key Insights**:  
+- **Beyond CNNs**: Unlike previous approaches, this method eliminates the need for CNNs and uses transformers directly for image classification.  
+- **Superior Results**: Vision Transformers (ViT) achieve **state-of-the-art performance**, surpassing CNN-based models in many benchmarks.  
+- **Efficiency**: Requires significantly **fewer computational resources** to train compared to traditional CNN-based methods.  
+- **Transfer Learning**: Pre-trained ViT models, fine-tuned on smaller datasets, yield **excellent performance** across multiple benchmarks.
