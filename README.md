@@ -49,6 +49,19 @@ This repository showcases a collection of research papers I’ve explored and re
 📝 **Summary**  
 **Transformers in Vision**: This work demonstrates the power of pure transformer models applied to image recognition tasks, moving away from convolutional neural networks (CNNs) as the core architecture. By using transformers to process sequences of image patches, the model performs exceptionally well on multiple image recognition benchmarks, including **ImageNet, CIFAR-100, and VTAB**.  
 
+## 4️⃣ **[Better Plain ViT Baselines for ImageNet-1k](https://arxiv.org/abs/2205.01580)**  
+**Authors**: Lucas Beyer, Xiaohua Zhai, Alexander Kolesnikov  
+
+📝 **Summary**  
+**Vision Transformer (ViT) Training**: This paper challenges the prevailing notion that the Vision Transformer requires advanced regularization techniques to perform well on large datasets like ImageNet-1k. The authors demonstrate that **standard data augmentation** is sufficient to achieve impressive results. By making **minor modifications** to the original ViT training process, they improve the performance of **plain ViT** models significantly.
+
+🔑 **Key Insights**:  
+- **Simple Yet Effective**: Contrary to common belief, ViT performs exceptionally well with **minimal modifications**, relying only on **standard data augmentation** for training.
+- **Performance Boost**: With just **90 epochs**, ViT achieves **76% top-1 accuracy** in under 7 hours on a TPUv3-8, outperforming classic ResNet50 baselines. With **300 epochs**, the model reaches **80% accuracy** in less than one day of training.
+- **Training Efficiency**: This study demonstrates that with the right approach, ViT can be trained efficiently and still surpass the performance of more complex models.
+
+---
+
 🔑 **Key Insights**:  
 - **Beyond CNNs**: Unlike previous approaches, this method eliminates the need for CNNs and uses transformers directly for image classification.  
 - **Superior Results**: Vision Transformers (ViT) achieve **state-of-the-art performance**, surpassing CNN-based models in many benchmarks.  
