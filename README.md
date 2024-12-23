@@ -58,11 +58,7 @@ This repository showcases a collection of research papers I’ve explored and re
 🔑 **Key Insights**:  
 - **Simple Yet Effective**: Contrary to common belief, ViT performs exceptionally well with **minimal modifications**, relying only on **standard data augmentation** for training.
 - **Performance Boost**: With just **90 epochs**, ViT achieves **76% top-1 accuracy** in under 7 hours on a TPUv3-8, outperforming classic ResNet50 baselines. With **300 epochs**, the model reaches **80% accuracy** in less than one day of training.
-- **Training Efficiency**: This study demonstrates that with the right approach, ViT can be trained efficiently and still surpass the performance of more complex models.
-
----
-
-🔑 **Key Insights**:  
+- **Training Efficiency**: This study demonstrates that with the right approach, ViT can be trained efficiently and still surpass the performance of more complex models.  
 - **Beyond CNNs**: Unlike previous approaches, this method eliminates the need for CNNs and uses transformers directly for image classification.  
 - **Superior Results**: Vision Transformers (ViT) achieve **state-of-the-art performance**, surpassing CNN-based models in many benchmarks.  
 - **Efficiency**: Requires significantly **fewer computational resources** to train compared to traditional CNN-based methods.  
