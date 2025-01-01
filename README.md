@@ -63,3 +63,20 @@ This repository showcases a collection of research papers I’ve explored and re
 - **Superior Results**: Vision Transformers (ViT) achieve **state-of-the-art performance**, surpassing CNN-based models in many benchmarks.  
 - **Efficiency**: Requires significantly **fewer computational resources** to train compared to traditional CNN-based methods.  
 - **Transfer Learning**: Pre-trained ViT models, fine-tuned on smaller datasets, yield **excellent performance** across multiple benchmarks.
+
+## 5️⃣ **End to End Learning for Self-Driving Cars**  
+**Authors**: Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, Xin Zhang, Jake Zhao, Karol Zieba  
+
+📝 **Summary**  
+**End-to-End Self-Driving System**: This groundbreaking research presents a **convolutional neural network (CNN)** that maps raw pixels from a **single front-facing camera** directly to **steering commands**. By utilizing **minimal training data** (only human steering angle), the system learns to drive efficiently on both **local roads** and **highways**, handling challenging environments like **parking lots** and **unpaved roads**.  
+
+🔑 **Key Insights**:  
+- **End-to-End Training**: The system doesn’t require explicit training for individual components like lane detection or path planning. It learns to drive by directly mapping camera input to steering commands, optimizing all processes at once.  
+- **Efficient Performance**: The system can drive autonomously at **30 frames per second (FPS)**, operating with minimal human intervention.  
+- **Learning Internal Representations**: The CNN automatically learns features like road outlines and lane boundaries without being explicitly trained for them.  
+- **Optimized System**: The end-to-end approach allows the model to self-optimize, providing better performance and smaller systems compared to traditional decomposed methods.  
+- **Reduced Complexity**: The model doesn't rely on multiple stages like lane detection or path planning. Instead, it learns to perform everything in one go, leading to a more compact solution.
+
+🔧 **Technical Details**:  
+- **Training Hardware**: The model was trained on an **NVIDIA DevBox** using **Torch 7**, and the self-driving car system used an **NVIDIA DRIVE PX** computer for operation.  
+- **Frame Rate**: The system operates in real-time at **30 FPS**, showcasing its high efficiency and effectiveness.  
