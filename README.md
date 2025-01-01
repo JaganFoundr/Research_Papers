@@ -64,7 +64,7 @@ This repository showcases a collection of research papers I’ve explored and re
 - **Efficiency**: Requires significantly **fewer computational resources** to train compared to traditional CNN-based methods.  
 - **Transfer Learning**: Pre-trained ViT models, fine-tuned on smaller datasets, yield **excellent performance** across multiple benchmarks.
 
-## 5️⃣ **End to End Learning for Self-Driving Cars**  
+## 5️⃣ **[End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)**  
 **Authors**: Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, Xin Zhang, Jake Zhao, Karol Zieba  
 
 📝 **Summary**  
